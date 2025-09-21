@@ -1,13 +1,12 @@
 {
   "name": "telegram-bot",
   "version": "1.0.0",
-  "description": "Basit Telegram bot API",
   "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0"
+  },
   "scripts": {
     "start": "node index.js"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "body-parser": "^1.20.2"
   }
 }
